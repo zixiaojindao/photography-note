@@ -1,0 +1,8 @@
+full screen mode下按住space可以移动图片
+image->adjustment->levels（灰度)可以调整明暗，input levels 可以使得亮的更亮，暗的更暗，output levels可以使得亮的更暗，暗的更亮
+image->adjustment->curves(ctrl+m)可以调整对比度
+image->adjustment->hue(ctrul+u)可以调整色度，饱和度。可以跟调整对比度一样选择一个像素然后调整，默认调整的是饱和度，按住ctrl调整的是色度。右下角的带+号和-号的吸管工具，是用来加入和排除调整的范围的。
+crop(裁剪工具),一个比较直接的用途是首先使用ruler工具在图片上沿着本来水平的线画线，然后点击straighten按钮，可以自动通过裁剪是照片变为水平
+image->adjustment->photo filter可以调整色温
+image->adjustment->color balance也可以调整色温
+image->adjustment->black & white可以把彩色图变成灰度图，可以在原图上点选像素，右边会显示该像素的原始颜色，左右拖动可以调整明亮程度。还可以使用tint(染色)对灰度图进行着色，和调整饱和度

@@ -1,0 +1,22 @@
+Clone stamp tool: 选择sample，然后替换选择的地方。 使用alt键选择sample。
+
+Spot healing tool: photoshop自动选择sample，只需要指定要替换的地方。一般来说都是根据临近像素来做sample。对小块修复有用
+
+Healing tool: 手动选择sample，photoshop自动匹配纹理，对于大块修复比较有用
+
+Edit->Fill->content aware: 首先使用选择工具，选择出合适区域，photoshop自动填充主要内容。对于大块连续背景(纹理不明显)中的个别物体的消除有用。
+可以先用lasso工具选出所有物体，不必全部边缘匹配，大致即可。shift键可以添加选择。
+
+消除红眼:Healing tool->Red eye tool
+降噪处理:Filter->noise->reduce noise 主要修改reduce color color noise, strength
+
+Filter->vanish point 对于纹理明显的背景，如果要消除物体的话，需要使用这个。首先选定一个区域，区域内最好有重复出现的背景。完了之后
+先选择起点(alt+鼠标左键)然后匹配到对应的一个区域（最好完全匹配），然后开始paint，遇到细节丰富的地方，就重现选择起点和终点，这样可以
+使得匹配的很好。注意到在paint的时候实际上是用绿色的十字所在的像素替换（或者blend）到鼠标所在的位置。
+
+Filter->lens correction可以修改由于镜头原因导致的效果。一个普遍的问题是，广角镜头照片的畸变，主要是线条在远处越来越趋近(line coverging)。
+打开之后，关掉auto scaling，修改edge为edge extension。调整custmo中的vertical和horizontal。可以使用p键来查看preview。调整的一个副作用就是
+多余出来一些可能不存在的东西，可以使用裁剪来达到消除。
+
+scaling，可以有全局scaling：首先全选图片(select->all)，然后选择edit->free transform(ctrl+t)。
+也可也是edit->content-aware scale,这样可以保留主要物体的大小

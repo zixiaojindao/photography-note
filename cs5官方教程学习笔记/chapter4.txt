@@ -8,8 +8,10 @@ ctrl+d可以取消选中区域
 ctrul+w可以关闭当前打开的文档
 ctrl+0 可以使文档大小适应屏幕， ctrl+1可以使文档100%比例显示
 选中区域后，按住ctrl可以使得鼠标变为移动，这样可以移动选择的区域
+select->all(ctrl+a)可以选择全部的图片像素
 
 lasso(套索) 工具中的magnetic lasso可以通过调整width, contrast, frequency来调整匹配的精度, 套索必须是封闭的，必须回到原点,回到原点是鼠标会有变化的。
+选择有三种方式，每次是新建一个选择，还有添加，消除。shift键可以添加选择区域。
 
 quick select tool(工具栏中像小刷子的工具), 可以通过调整size来调节大小，调整size的快捷方式为左括号'('为减小size，右括号')'为增大size
 quick selct tool比较典型的用途是快速选择背景或者主题，先通过较大size粗选，然后通过选择add(默认)或者delete(alt)来修补，适当的调整size的大小也是需要的

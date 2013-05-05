@@ -1,0 +1,25 @@
+Type tool(文字工具),快捷键t。
+写了字之后，实际上新建了一个layer（图层）。图层叠加的效果相当于写字了。所以当鼠标在字上方，可以使用ctrl键来移动图层。
+书写字之后，可以再次改动书写。
+编辑状态下，按住ctrl键，可以出现围绕字体的box，可以拖动box放大缩小字体。
+可以画一个矩形来指定字的书写范围。
+当然也可以通过删除layer的方式删除字。
+
+Type mask tool,实际上通过字做了一个mask，形成了一个选择区域。可以对这个区域fill（填充），颜色，pattern等等。
+type mask tool，不会生成一个layer,而是嵌在background layer上。
+
+window->paragraph可以修改各种文字相关的设置(颜色，字体，对齐，字距，行距)。
+
+window->path可以让字沿着path书写。同时warp type工具(T下面有一个弧线)，可以改变各种外形，扇形啊等等。
+
+字体的颜色在设计海报的时候可以考虑应用一下主题物体的颜色。
+
+字体layer的下面有个fx的按钮可以给字体增加特殊效果，例如阴影(drop shadow)等。
+
+可以使用alt键把一个字体layer的效果拖到另外一个字体layer
+
+blend mode:各个blend mode的区别。
+名词解释:
+bevel：倾斜
+emboss: 浮雕效果
+outer glow: 外发光

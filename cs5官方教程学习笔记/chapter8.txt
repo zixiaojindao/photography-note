@@ -1,0 +1,4 @@
+shape tool可以产生向量图层，多个shape可以放在一起个图层，非向量不能和向量放在同一图层。
+pen tool可以自由产生shape，或者path。path可以被stroke fill，fill。
+可以使用direct selection tool 重新编辑path，可以使用path selection tool选择path，移动path。
+path可以转化为selection，然后填充。shape也可以转化为path。

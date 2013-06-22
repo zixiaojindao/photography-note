@@ -1,0 +1,12 @@
+1.Patch tool(和Healing tool 是一组工具)也是一个比较好用的消除物体的工具，主要操作方法是选择Path tool, 然后用鼠标选择消除的区域，然后拖动，用拖动带过的区域来patch选择的区域，实现了用附近相同纹理的像素替换的功能。Patch tool 有content-aware和source（相当于从别处复制，粘贴到选择区域）, destination(相当于复制粘贴）两种方式。
+2.我不知道为什么很多教程中都说要复制一个背景图层，然后在这个复制的图层上修改。貌似这样可以使得修改是在修改图层上的，背景没有变，所有图层相叠加得到了最终的图层。
+所以我们应该尽可能的对每一个图层进行精确的职责划分，调整饱和度图层只调整饱和度，清理图层消除不必要的物体。
+3.复制一个图层ctrl+j
+4.新建一个图层ctrl+shift+n
+5.z 放大镜
+6.alt 缩小镜
+7.忽然发现Spot Healing tool也可以拖动的, ps自动选择sample。
+8.Spot healing tool对于消除物体和附近纹理明暗相似的场景不适用。
+9.当使用图章工具的时候，如果消除的物体的边缘距离不需要消除的物体太近，可以先把不必要消除的物体select出来，然后select->inverse,这样图章复制的时候就不会改动没有选择的地方了。
+10.如果衣服上或者大面积有小灰尘点的话，可以首先选出需要处理的区域，然后Filter->noise->dust and scratch,首先把threshold置为0，调整radius，满意之后，提高threshold，这样可以复原一些纹理。
+11.消除物体的时候，应该多尝试Spot healing tool, healing brush tool, patch tool, clone stamp，尝试出最好的效果。

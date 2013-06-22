@@ -11,7 +11,7 @@ Edit->Fill->content aware: 首先使用选择工具，选择出合适区域，ph
 降噪处理:Filter->noise->reduce noise 主要修改reduce color color noise, strength
 
 Filter->vanish point 对于纹理明显的背景，如果要消除物体的话，需要使用这个。首先选定一个区域，区域内最好有重复出现的背景。完了之后
-先选择起点(alt+鼠标左键)然后匹配到对应的一个区域（最好完全匹配），然后开始paint，遇到细节丰富的地方，就重现选择起点和终点，这样可以
+先选择图章工具，然后选择起点(alt+鼠标左键)然后匹配到对应的一个区域（最好完全匹配），然后开始paint，遇到细节丰富的地方，就重现选择起点和终点，这样可以
 使得匹配的很好。注意到在paint的时候实际上是用绿色的十字所在的像素替换（或者blend）到鼠标所在的位置。
 
 Filter->lens correction可以修改由于镜头原因导致的效果。一个普遍的问题是，广角镜头照片的畸变，主要是线条在远处越来越趋近(line coverging)。

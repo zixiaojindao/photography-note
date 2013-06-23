@@ -1,0 +1,1 @@
+1.有时候想要调整局部的亮度，可以新建一个curve图层，然后调整满意后，点击mask中的revert(ctrl-i), 然后用不透明度较小的白色brush去paint。

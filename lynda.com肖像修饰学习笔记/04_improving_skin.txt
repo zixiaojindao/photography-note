@@ -1,0 +1,4 @@
+1.去除人额头的皱纹可以使用半径较小的Spot healing tool，但是为了不完全丢失细节，可以调整clean up图层的不透明度为50%。
+2.使用Clone stamp tool（中下不透明度)把皮肤较好的部分clone到较差的部分。
+3.关于layer mask，一个很重要的technique是如果调整区域的边缘很难看，可以调整，layer mask的feather 大小。
+4.可以选中一个区域，然后新建一个调整图层，会对这个区域自动加入黑白mask。

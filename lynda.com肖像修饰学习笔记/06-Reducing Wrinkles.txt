@@ -1,0 +1,4 @@
+1.alt+eye background可以产看before and after。
+2.调整完毕以后，可以对所有layer新建一个group（全选，ctrl-g)，然后对layer group新建一个mask，使用黑色不透明度较低
+4.可以使用path工具来去掉皱纹，使用path工具的时候可能显得太假，这个时候需要调整Fade patch selection(ctrl-shift-f)来调整不透明度。
+5.ctrl-h（hide）可以隐藏选择区的边线。

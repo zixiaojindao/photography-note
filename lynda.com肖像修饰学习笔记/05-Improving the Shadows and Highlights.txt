@@ -1,1 +1,7 @@
 1.有时候想要调整局部的亮度，可以新建一个curve图层，然后调整满意后，点击mask中的revert(ctrl-i), 然后用不透明度较小的白色brush去paint。
+2.选择brush tool，然后alt+left click可以选择鼠标所在的颜色
+3.Image->adjustment->hightlights and shadows可以调整高光和阴影部分。
+4.需要了解screen和soft light混合模式。
+5.调整面部局部的阴影可以new一个图层，使用soft light混合模式，选择面部光泽正常的地方（b, alt+click)，然后paint。
+的黑色brush进行paint，可以找回来回来一些细节。
+

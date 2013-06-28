@@ -1,4 +1,0 @@
-1.ps cs6在Healing tool中增加了一个content aware move tool, 可以方便的复制图像中已有的区域，主要用于扩展图像中的部分。使用完该工具中，如果有一些边缘的地方没有匹配好，可以新建一个mask，用黑色涂掉不匹配的区域。
-2.crop工具，不仅可以裁剪缩小图像，也可以拖动裁剪框扩展图像。
-3.select一块区域后，可以通过select->modify->expand来扩张所选区域。
-4.选择一块区域后，可以ctrl+j是的该区域新建成一个layer。

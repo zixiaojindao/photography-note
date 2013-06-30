@@ -1,0 +1,6 @@
+1.quick mask selection步骤:q->b,然后用brush绘制需要的部分，红色的部分显示了选择的部分。
+然后继续使用q，则表示结束选择。然后选择一个调整图层即可。选出来之后选择的部分是黑色的，背景是白色的，可以ctrl+i饭庄。此法可以用来选择出眼睛的部分。
+2.ctrl+click mask可以重新使得mask变为选区，用于复制mask。
+3.新建一个mask时，可以按住alt键，产生一个全黑的mask。
+4.戴眼镜的眼睛可以使用filter->smart sharpen来锐化一下。
+5.眼睛上的反光可以用curve layer调整。

@@ -1,0 +1,2 @@
+1.对于已经有红色的唇色，想把嘴唇弄红一些，可以使用curve图层，调整red，green，rgb曲线，调出好看的唇色，然后纯黑mask，白色brush paint嘴唇，注意brush的不透明度。
+2.对于没有红色的唇色，可以先用quick mask工具(q)黑色brush 画出唇部，遇到边缘地方需要降低不透明度在paint，然后q，选出唇部，然后使用color balance建立调整图层。高级技巧是，color balance图层调整完之后，复制一个color balance图层，使用multiply混合模式，然后调整两个调整图层的不透明度。

@@ -1,0 +1,7 @@
+1.增加维度的原理是提高明暗的对比，使用两个curve调整图层，一个拉暗，一个拉亮，分别用brush去涂抹高光和暗部，是亮的更亮，暗的更暗即可。
+2.Filter->Liquify工具可以改变物体的形状，一般需要打开advance option，调整brush size和brush pressure，brush pressure一般应设的较低，拖动的时候应该缓慢。
+最小面的show backdrop可以查看效果。
+3.merge所有修改到最顶层ctrl+shift+alt+n,e
+4.瘦脸的话，也可以使用rectangular marquee tool 来选择半边脸(选择的时候需要调大一下Feather)，然后使用Free transform 工具，来warp。完了之后用使用mask来画出脸边缘的地方。
+5.还有一种方法，就是使用移动工具，先选择出来比如肩膀(用rectanular marquee tool 大致选出）然后ctrl+j新建图层，'v'选择移动工具，使用箭头来移动，然后黑色mask,白色brush开始画吧。
+5. 'x'可以切换前景和背景色。'v'选择移动工具。

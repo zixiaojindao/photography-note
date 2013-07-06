@@ -1,0 +1,3 @@
+1.把牙齿变白，可以使用hue-saturation调整图层，牙齿mask(color range)，然后降低黄色（牙齿）饱和度。
+2.另一个高级的方法是，使用hue-saturation调整图层，然后用调整牙齿到比较白，反转mask，用白色brush 画出牙齿。复制两份hue-saturation调整图层，一个用screen一个用soft-light。注意各个图层的不透明度。
+4.ps中也有vim中类似记录宏的功能，Window->Actions可以提供这种功能。

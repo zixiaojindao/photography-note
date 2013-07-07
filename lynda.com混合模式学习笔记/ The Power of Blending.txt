@@ -1,0 +1,12 @@
+1.F12可以恢复原始照片状态
+2.如果仅仅使用图层的混合模式来达到效果，可以不用copy一个背景图层，然后再使用混合模式，这样会使得文件大小加倍。可以随便使用一个调整图层，然后使用混合模式，ps对调整图层的混合模式处理为对合成后的最终图使用混合模式。
+3.blend模式分为六大类：
+Normal, Darken, Lighten, Contrast, Inversion/Cancelation(CLIP), Component(HSL)
+Normal = no blend mode. Dissolve dithers translucent areas.
+Darken(SHADOW) = the active layer darkens those blow it, as if casting a shadow.
+Lighten(GLOW) = the active layer brightens the layers below, as if creating a glow. Each has an opposing mode(as paired sequentially) in the Darken group.
+Contrast = Dark pixels in the active lyaer burn in shadows;light ones boost hightlights. The result is an elevation in the contrast of the composite image.
+Inversion/Cancelation(CLIP)
+Diffrence and Exclusion use the active layer to ivert those below. Similiar pixels become black(Difference) or gray(Exclusion). Subtract and Divide cancel pixels by clipping them to black(Subtract) or white(Divide).
+Comonent(HSL)
+A pixel may be expressed as a combination of the primary components-Hue, saturation, and Luminosity.(Color=H+S.)These final modes mix the primaries independently.

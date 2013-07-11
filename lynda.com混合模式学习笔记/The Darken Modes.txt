@@ -1,0 +1,4 @@
+1.如果要darken，一般先multiply,然后看看linear burn,最后color burn.
+2.消除一些细小的东西，给图层上加一个Threshold调整图层可以看得更清楚一些，记得完了删除它。
+3.ps中打开两张照片合成，可以在一个照片的窗口上，右键选择duplicate layer, 然后选择另外一张照片。
+4.一般来说复制到另外一个图层之后，肯定需要free transform，最好可以调整成smart object之后再弄，这样可以始终回到最初的状态。

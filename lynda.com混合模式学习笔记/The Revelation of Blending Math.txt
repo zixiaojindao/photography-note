@@ -1,0 +1,5 @@
+1.blend实际上只有四种操作，add, subtract, multiply, divide.
+2.所有的操作都是在都是针对一个通道的，而且是归一化之后的。小于0的变为0， 大于1的变为1.
+实际上只有multiply不会溢出，它的效果是uniformlly  darken.
+3.所有的blend mode都是通过组合这四种操作而来。
+4.一般来说两个像素的所有通道进行上述操作输出新的像素。但是darker color 和lighter color是比较之后取一个整体的像素来输出。
